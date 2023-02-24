@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "node server",
-    "start-dev": "webpack -w & nodemon server -e js,html server/index.js"
+    "start-dev": "webpack -w & nodemon server -e js,html server/index.js",
+    "build-watch": "webpack -w"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
